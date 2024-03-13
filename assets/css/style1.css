@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: black;
+}
+
+img {
+  width: 1000px;
+  height: 500px;
+}
+
+#imagenConBorde {
+  cursor: pointer;
+  transition: border 0.3s ease-in-out;
+}
+
+#imagenConBorde.conBorde {
+  border: 2px solid red;
+}
